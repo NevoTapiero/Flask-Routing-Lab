@@ -1,11 +1,25 @@
-body {
+.body1 {
 	margin: 0;
-	background-color: black;
+	background-color: skyblue;
 }
 
+.body2 {
+	margin: 0;
+	background-color: skyblue;
+}
+
+.body3 {
+	margin: 0;
+	background-color: skyblue;
+}
+
+.body4 {
+	margin: 0;
+	background-color: skyblue;
+}
 .topnav {
 	overflow: hidden;
-	background-color: #333;
+	background-color: lightblue;
 }
 
 .topnav a {
@@ -13,7 +27,7 @@ body {
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
-	font-size: 17px;
+	font-size: 25px;
 }
 
 .topnav a:hover {
@@ -23,7 +37,7 @@ body {
 
 .topnav a.active {
 	float: left;
-	background-color: lightblue;
+	background-color: lightpink;
 	color: white;
 }	
 
@@ -32,4 +46,13 @@ body {
 }
 .c2 {
 	float: left;
+}
+
+.pic1{
+	width: 25px;
+	height: 25px;
+}
+
+.card{
+	height: 50%;
 }

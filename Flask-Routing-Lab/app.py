@@ -23,6 +23,10 @@ def product():
 def cart():
     return render_template('cart.html')
 
+@app.route('/about')
+def about():
+    return render_template('about.html')
+
 
 # Your code should be above
 
